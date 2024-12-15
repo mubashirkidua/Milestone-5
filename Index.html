@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>  Resume Builder </title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+    
+    <h1>Unique path and Shareable Link by Muhammad Mubashir Ali</h1>
+
+    <form id="resumeForm">
+      
+    <fieldset>
+     
+            <legend>Personal Information</legend>
+
+            <label for="username"> Resume URL:</label>
+            <input type="text" id="username" name="username" required/> <br/>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+
+            <label for="linkedin">Linkedin: </label>
+            <input type="linkedin" id="linkedin" placeholder="Enter your linkedin URL" required>
+
+
+            <label for="mobile">Mobile: </label>
+            <input type="mobile" id="mobile" placeholder="Enter your mobile no" required>
+
+            <label for="Address">Address: </label>
+            <input type="Address" id="Address" placeholder="Enter your Address" required>
+       </fieldset>
+
+       <fieldset>
+
+            <legend>Education</legend>
+            <label for="education">Education: </label>
+            <textarea id="education" placeholder="Enter your education" rows="4" required></textarea> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Professional Experience</legend>
+            <label for="experience">Experience: </label>
+            <textarea id="experience" placeholder="Enter your experience" rows="4" required></textarea> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills: </label>
+            <textarea id="skills" placeholder="Enter your skills" rows="4" required></textarea> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Seminars and Workshops</legend>
+            <label for="seminars and workshops">Seminars and Workshops : </label>
+            <textarea id="seminars and workshops" placeholder="Enter your words" rows="4" required></textarea>
+        </fieldset>
+
+             <button type="submit">Generate Resume Below</button>
+
+    </form>
+
+         <div id="resumeOutput" contenteditable="true">
+            
+         <!--Resume will be Generated Below-->
+        </div>
+
+        <script src="script.js"></script>
+
+        </body>
+        </html>
+
+
